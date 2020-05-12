@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/adobe/helix-shared#readme",
   "dependencies": {
+    "@adobe/helix-fetch": "^1.6.0",
     "@adobe/helix-log": "^4.5.1",
     "ajv": "^6.12.2",
     "ferrum": "^1.4.1",
