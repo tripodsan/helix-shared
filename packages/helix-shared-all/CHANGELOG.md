@@ -1,3 +1,16 @@
+# Change Log
+
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+## [8.0.1](https://github.com/adobe/helix-shared/compare/@tripod/helix-shared@8.0.0...@tripod/helix-shared@8.0.1) (2021-04-28)
+
+**Note:** Version bump only for package @tripod/helix-shared
+
+
+
+
+
 # [7.21.0](https://github.com/adobe/helix-shared/compare/v7.20.0...v7.21.0) (2021-03-02)
 
 
