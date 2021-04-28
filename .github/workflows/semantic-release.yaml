@@ -26,14 +26,14 @@ jobs:
 #          GITHUB_PAT: ${{ secrets.GITHUB_PAT }}
 
 
-#      - name: Authenticate with Registry
-#        run: |
-#          echo "@tripodsan:registry=http://registry.npmjs.org/" > .npmrc
-#          echo "registry=http://registry.npmjs.org/" >> .npmrc
-#          echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> .npmrc
-#          npm whoami
-#        env:
-#          NPM_TOKEN: ${{ secrets.ADOBE_BOT_NPM_TOKEN }}
+      - name: Authenticate with Registry
+        run: |
+          echo "@tripodsan:registry=http://registry.npmjs.org/" > .npmrc
+          echo "registry=http://registry.npmjs.org/" >> .npmrc
+          echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> .npmrc
+          npm whoami
+        env:
+          NPM_TOKEN: ${{ secrets.ADOBE_BOT_NPM_TOKEN }}
       - run: npm ci
       - run: npm run bootstrap
 #      - run: npm run lint
