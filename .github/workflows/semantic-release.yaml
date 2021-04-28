@@ -22,8 +22,8 @@ jobs:
           git config --global user.name "Github Build"
       - name: Authenticate with Registry
         run: |
-#          echo "@tripodsan:registry=http://registry.npmjs.org/" > .npmrc
           echo "registry=http://registry.npmjs.org/" >> .npmrc
+#          echo "@tripodsan:registry=http://registry.npmjs.org/" > .npmrc
           echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> .npmrc
           npm whoami
         env:
