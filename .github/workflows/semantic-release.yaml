@@ -17,10 +17,10 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: '12.x'
-#      - name: Configure Git User
-#        run: |
-#          git config --global user.email "ci@example.com"
-#          git config --global user.name "Github Build"
+      - name: Configure Git User
+        run: |
+          git config --global user.email "ci@example.com"
+          git config --global user.name "Github Build"
 #          git remote set-url origin https://$GITHUB_ACTOR:$GH_TOKEN@github.com/triposan/helix-shared
 #        env:
 #          GITHUB_PAT: ${{ secrets.GITHUB_PAT }}
