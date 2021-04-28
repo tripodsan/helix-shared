@@ -16,7 +16,7 @@ const assert = require('assert');
 const fs = require('fs-extra');
 const path = require('path');
 const { logging } = require('@adobe/helix-testutils');
-const { GitUrl } = require('@adobe/helix-shared-git');
+const { GitUrl } = require('@tripod/helix-shared-git');
 const { HelixConfig } = require('../src/index.js');
 
 const Strain = require('../src/Strain.js');

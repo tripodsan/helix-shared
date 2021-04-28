@@ -13,8 +13,8 @@
 const URI = require('uri-js');
 const YAML = require('yaml');
 const { YAMLMap, Pair } = require('yaml/types');
-const { GitUrl } = require('@adobe/helix-shared-git');
-const { pruneEmptyValues } = require('@adobe/helix-shared-utils');
+const { GitUrl } = require('@tripod/helix-shared-git');
+const { pruneEmptyValues } = require('@tripod/helix-shared-utils');
 const Origin = require('./Origin.js');
 const Static = require('./Static.js');
 const Performance = require('./Performance.js');

@@ -1,5 +1,5 @@
 {
-  "name": "@adobe/helix-shared-monorepo",
+  "name": "@tripod/helix-shared-monorepo",
   "private": true,
   "version": "7.29.1",
   "description": "Shared modules of the Helix Project - monorepo",

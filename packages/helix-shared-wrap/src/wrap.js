@@ -15,7 +15,7 @@
  * **Usage:**
  *
  * ```js
- * const { wrap } = require('@adobe/helix-shared');
+ * const { wrap } = require('@tripod/helix-shared');
  *
  * async main(params) {
  *   // …my action code…

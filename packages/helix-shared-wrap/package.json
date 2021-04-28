@@ -1,5 +1,5 @@
 {
-  "name": "@adobe/helix-shared-wrap",
+  "name": "@tripod/helix-shared-wrap",
   "version": "7.21.0",
   "description": "Shared modules of the Helix Project - wrap",
   "main": "src/wrap.js",

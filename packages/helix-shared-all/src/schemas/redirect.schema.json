@@ -19,13 +19,13 @@
       "type": "string",
       "format": "uri",
       "title": "Rewrites Excel Spreadsheet",
-      "description": "A link to an Excel spreadsheet hosted on Sharepoint, shared with `helix@adobe.com` that has at least two columns. The first column, titled ‟from” contains the rewrite source path, the second column, titled ‟to” specifies the rewrite target path."
+      "description": "A link to an Excel spreadsheet hosted on Sharepoint, shared with `helix@tripod.com` that has at least two columns. The first column, titled ‟from” contains the rewrite source path, the second column, titled ‟to” specifies the rewrite target path."
     },
     {
       "type": "string",
       "format": "uri",
       "title": "Rewrites Google Spreadsheet",
-      "description": "A link to a Google spreadsheet, shared with `helix@adobe.com` that has at least two columns. The first column, titled ‟from” contains the rewrite source path, the second column, titled ‟to” specifies the rewrite target path."
+      "description": "A link to a Google spreadsheet, shared with `helix@tripod.com` that has at least two columns. The first column, titled ‟from” contains the rewrite source path, the second column, titled ‟to” specifies the rewrite target path."
     },
     {
       "$ref": "https://ns.adobe.com/helix/shared/redirectrule"

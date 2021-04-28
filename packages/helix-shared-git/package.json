@@ -1,5 +1,5 @@
 {
-  "name": "@adobe/helix-shared-git",
+  "name": "@tripod/helix-shared-git",
   "version": "7.21.0",
   "description": "Shared modules of the Helix Project - Git Utils",
   "main": "src/index.js",
@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/adobe/helix-shared#readme",
   "dependencies": {
-    "@adobe/helix-shared-utils": "*",
+    "@tripod/helix-shared-utils": "*",
     "yaml": "1.10.0"
   }
 }

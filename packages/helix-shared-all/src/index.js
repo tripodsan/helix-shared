@@ -9,10 +9,10 @@
  * OF ANY KIND, either express or implied. See the License for the specific language
  * governing permissions and limitations under the License.
  */
-const { GitUrl } = require('@adobe/helix-shared-git');
-const utils = require('@adobe/helix-shared-utils');
-const wrap = require('@adobe/helix-shared-wrap');
-const processQueue = require('@adobe/helix-shared-process-queue');
+const { GitUrl } = require('@tripod/helix-shared-git');
+const utils = require('@tripod/helix-shared-utils');
+const wrap = require('@tripod/helix-shared-wrap');
+const processQueue = require('@tripod/helix-shared-process-queue');
 const HelixConfig = require('./HelixConfig.js');
 const IndexConfig = require('./IndexConfig');
 const MountConfig = require('./MountConfig');

@@ -1,5 +1,5 @@
 {
-  "name": "@adobe/helix-shared",
+  "name": "@tripod/helix-shared",
   "version": "7.21.0",
   "description": "Shared modules of the Helix Project",
   "main": "src/index.js",
@@ -20,10 +20,10 @@
   },
   "homepage": "https://github.com/adobe/helix-shared#readme",
   "dependencies": {
-    "@adobe/helix-shared-utils": "*",
-    "@adobe/helix-shared-wrap": "*",
-    "@adobe/helix-shared-process-queue": "*",
-    "@adobe/helix-shared-git": "*",
+    "@tripod/helix-shared-utils": "*",
+    "@tripod/helix-shared-wrap": "*",
+    "@tripod/helix-shared-process-queue": "*",
+    "@tripod/helix-shared-git": "*",
     "@adobe/helix-fetch": "2.1.6",
     "@adobe/helix-log": "5.0.0",
     "ajv": "8.1.0",

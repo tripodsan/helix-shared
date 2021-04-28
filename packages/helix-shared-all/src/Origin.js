@@ -11,7 +11,7 @@
  */
 const URI = require('uri-js');
 const hash = require('object-hash');
-const { pruneEmptyValues } = require('@adobe/helix-shared-utils');
+const { pruneEmptyValues } = require('@tripod/helix-shared-utils');
 
 class Origin {
   constructor(cfg) {

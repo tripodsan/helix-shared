@@ -14,7 +14,7 @@
 
 const assert = require('assert');
 const path = require('path');
-const { GitUrl } = require('@adobe/helix-shared-git');
+const { GitUrl } = require('@tripod/helix-shared-git');
 const Condition = require('../src/Condition.js');
 const { HelixConfig, Strain } = require('../src/index.js');
 

@@ -13,8 +13,8 @@
 const { Pair } = require('yaml/types');
 
 const EventEmitter = require('events');
-const { GitUrl } = require('@adobe/helix-shared-git');
-const utils = require('@adobe/helix-shared-utils');
+const { GitUrl } = require('@tripod/helix-shared-git');
+const utils = require('@tripod/helix-shared-utils');
 
 /**
  * Static content handling

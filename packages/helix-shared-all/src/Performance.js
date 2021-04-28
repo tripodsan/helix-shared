@@ -11,7 +11,7 @@
  */
 
 const YAML = require('yaml');
-const { pruneEmptyValues } = require('@adobe/helix-shared-utils');
+const { pruneEmptyValues } = require('@tripod/helix-shared-utils');
 
 /**
  * Performance Definition

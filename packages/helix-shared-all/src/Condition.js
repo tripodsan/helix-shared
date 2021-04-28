@@ -13,7 +13,7 @@
 /* eslint-disable max-classes-per-file */
 const { parse } = require('url');
 const YAML = require('yaml');
-const { pruneEmptyValues } = require('@adobe/helix-shared-utils');
+const { pruneEmptyValues } = require('@tripod/helix-shared-utils');
 
 // To avoid forward referencing the transformer function
 let transform;
