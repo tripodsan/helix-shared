@@ -1,6 +1,6 @@
 {
   "name": "@tripod/helix-shared",
-  "version": "8.0.6",
+  "version": "8.0.7",
   "description": "Shared modules of the Helix Project",
   "main": "src/index.js",
   "types": "src/index.d.ts",
@@ -28,7 +28,7 @@
     "@tripod/helix-shared-git": "^1.0.3",
     "@tripod/helix-shared-process-queue": "^1.0.2",
     "@tripod/helix-shared-utils": "^1.0.3",
-    "@tripod/helix-shared-wrap": "^1.1.3",
+    "@tripod/helix-shared-wrap": "^1.1.4",
     "ajv": "8.1.0",
     "ajv-formats": "2.0.2",
     "ferrum": "1.9.0",
