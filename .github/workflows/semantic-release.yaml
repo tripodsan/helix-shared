@@ -17,6 +17,8 @@ jobs:
         with:
           node-version: '12.x'
       - run: npm install
+      - run: npm run bootstrap
+      - run: npm run lint
       - run: npm test
       - run: npm run semantic-release
         env:
