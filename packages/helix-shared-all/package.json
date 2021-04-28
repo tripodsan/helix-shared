@@ -19,6 +19,9 @@
     "url": "https://github.com/adobe/helix-shared/issues"
   },
   "homepage": "https://github.com/adobe/helix-shared#readme",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@adobe/helix-fetch": "2.1.6",
     "@adobe/helix-log": "5.0.0",

@@ -19,6 +19,9 @@
     "url": "https://github.com/adobe/helix-shared/issues"
   },
   "homepage": "https://github.com/adobe/helix-shared#readme",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@tripod/helix-shared-utils": "^1.0.1",
     "yaml": "1.10.0"
