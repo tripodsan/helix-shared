@@ -12,7 +12,6 @@ jobs:
       - uses: actions/checkout@v2
         with:
           token: ${{ secrets.MY_GITHUB_TOKEN }}
-#          persist-credentials: false
       - name: Use Node.js 12.x
         uses: actions/setup-node@v2
         with:
@@ -21,11 +20,6 @@ jobs:
         run: |
           git config --global user.email "ci@example.com"
           git config --global user.name "Github Build"
-#          git remote set-url origin https://$GITHUB_ACTOR:$GH_TOKEN@github.com/triposan/helix-shared
-#        env:
-#          GITHUB_PAT: ${{ secrets.GITHUB_PAT }}
-
-
       - name: Authenticate with Registry
         run: |
           echo "@tripodsan:registry=http://registry.npmjs.org/" > .npmrc
@@ -43,3 +37,4 @@ jobs:
           GH_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.ADOBE_BOT_NPM_TOKEN }}
+          NPM_AUTH_TOKEN: ${{ secrets.ADOBE_BOT_NPM_TOKEN }}
