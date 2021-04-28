@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/adobe/helix-shared/compare/@tripod/helix-shared-wrap@1.0.2...@tripod/helix-shared-wrap@1.1.0) (2021-04-28)
+
+
+### Features
+
+* **wrap:** remove newline ([cc95119](https://github.com/adobe/helix-shared/commit/cc951192ebde8c4366f990429e43e1ee3c5bd42b))
+
+
+
+
+
 ## [1.0.2](https://github.com/adobe/helix-shared/compare/@tripod/helix-shared-wrap@1.0.1...@tripod/helix-shared-wrap@1.0.2) (2021-04-28)
 
 **Note:** Version bump only for package @tripod/helix-shared-wrap
