@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.16](https://github.com/adobe/helix-shared/compare/@tripod/helix-shared-wrap@1.1.15...@tripod/helix-shared-wrap@1.1.16) (2021-04-28)
+
+**Note:** Version bump only for package @tripod/helix-shared-wrap
+
+
+
+
+
 ## 1.1.15 (2021-04-28)
 
 **Note:** Version bump only for package @tripod/helix-shared-wrap
