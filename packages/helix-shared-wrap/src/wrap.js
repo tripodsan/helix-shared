@@ -57,7 +57,6 @@ function wrap(fn) {
     wrapped.with = withfn;
     return wrapped;
   };
-
   // eslint-disable-next-line no-param-reassign
   fn.with = withfn;
   return fn;
