@@ -23,7 +23,7 @@ jobs:
             echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> .npmrc
             npm whoami
           env:
-            NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+            NPM_TOKEN: ${{ secrets.ADOBE_BOT_NPM_TOKEN }}
       - run: npm install
       - run: npm run bootstrap
 #      - run: npm run lint
