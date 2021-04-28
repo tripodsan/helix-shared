@@ -1,6 +1,6 @@
 {
   "name": "@tripod/helix-shared-git",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Shared modules of the Helix Project - Git Utils",
   "main": "src/index.js",
   "scripts": {
@@ -23,7 +23,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@tripod/helix-shared-utils": "^1.0.1",
+    "@tripod/helix-shared-utils": "^1.0.2",
     "yaml": "1.10.0"
   }
 }
